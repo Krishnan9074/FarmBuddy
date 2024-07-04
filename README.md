@@ -51,3 +51,4 @@ The Farmbuddy application assists farmers with various tasks related to crops an
    - TCP performs a four-way handshake to gracefully close the connection, ensuring all pending queries and responses are transmitted and received before termination.
 
 ### Summary
+TCP ensures that the farmer's queries and the Farmbuddy's responses are transmitted reliably, in order, and without errors. It manages connections, data flow, and congestion to provide a smooth and efficient communication experience between the farmer and the Farmbuddy server.
